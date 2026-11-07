@@ -67,6 +67,7 @@ export default function NearbyGymsExplorer() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedGymId, setSelectedGymId] = useState(null);
   const [sortBy, setSortBy] = useState('rating'); // 'rating' | 'distance' | 'price_low' | 'price_high'
+  const [activeFeatureFilter, setActiveFeatureFilter] = useState('all');
   const [viewMode, setViewMode] = useState('map'); // 'map' | 'grid'
   const [showDossier, setShowDossier] = useState(true);
   const [copiedId, setCopiedId] = useState(null);
