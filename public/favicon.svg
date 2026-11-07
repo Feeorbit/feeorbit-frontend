@@ -1,0 +1,35 @@
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fo-fav-primary" x1="6" y1="6" x2="42" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <linearGradient id="fo-fav-secondary" x1="42" y1="8" x2="8" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.95" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#4f46e5" stop-opacity="0.2" />
+    </linearGradient>
+    <radialGradient id="fo-fav-glow" cx="24" cy="24" r="14" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.65" />
+      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="48" height="48" rx="12" fill="#090c15" />
+  <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="11.25" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1.5" />
+  
+  <circle cx="24" cy="24" r="14" fill="url(#fo-fav-glow)" />
+
+  <ellipse cx="24" cy="24" rx="18" ry="9.2" transform="rotate(-30 24 24)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+  <ellipse cx="24" cy="24" rx="16.5" ry="7.5" transform="rotate(38 24 24)" stroke="url(#fo-fav-secondary)" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="64 36" />
+  <ellipse cx="24" cy="24" rx="17.5" ry="8" transform="rotate(-28 24 24)" stroke="url(#fo-fav-primary)" stroke-width="2.9" stroke-linecap="round" stroke-dasharray="80 28" />
+
+  <circle cx="37.5" cy="16.5" r="2.5" fill="#38bdf8" />
+  <circle cx="37.5" cy="16.5" r="4.5" stroke="#38bdf8" stroke-opacity="0.35" stroke-width="1.2" />
+  <circle cx="10.5" cy="31.5" r="1.8" fill="#818cf8" />
+
+  <path d="M24 16.5L28.5 24L24 31.5L19.5 24Z" fill="url(#fo-fav-primary)" />
+  <circle cx="24" cy="24" r="2.2" fill="#ffffff" />
+</svg>

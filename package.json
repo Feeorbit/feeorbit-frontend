@@ -1,0 +1,21 @@
+{
+  "name": "feeorbit-frontend",
+  "version": "1.0.0",
+  "description": "FeeOrbit Cybernetic Gym Operating System Frontend Client",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "html5-qrcode": "^2.3.8",
+    "lucide-react": "^0.474.0",
+    "next": "^14.2.23",
+    "qrcode": "^1.5.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "socket.io-client": "^4.8.4"
+  }
+}

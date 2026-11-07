@@ -1,0 +1,45 @@
+<svg viewBox="0 0 240 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fol-primary" x1="6" y1="6" x2="42" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <linearGradient id="fol-secondary" x1="42" y1="8" x2="8" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.95" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#4f46e5" stop-opacity="0.2" />
+    </linearGradient>
+    <radialGradient id="fol-glow" cx="24" cy="24" r="14" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.65" />
+      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="fol-text-grad" x1="120" y1="18" x2="195" y2="38" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Logo Mark (Centered in 48x48 box, offset by 3, 3) -->
+  <g transform="translate(3, 3)">
+    <rect width="48" height="48" rx="12" fill="#0b0f19" />
+    <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="11.25" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1.5" />
+    <circle cx="24" cy="24" r="14" fill="url(#fol-glow)" />
+    <ellipse cx="24" cy="24" rx="18" ry="9.2" transform="rotate(-30 24 24)" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" />
+    <ellipse cx="24" cy="24" rx="16.5" ry="7.5" transform="rotate(38 24 24)" stroke="url(#fol-secondary)" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="64 36" />
+    <ellipse cx="24" cy="24" rx="17.5" ry="8" transform="rotate(-28 24 24)" stroke="url(#fol-primary)" stroke-width="2.9" stroke-linecap="round" stroke-dasharray="80 28" />
+    <circle cx="37.5" cy="16.5" r="2.5" fill="#38bdf8" />
+    <circle cx="37.5" cy="16.5" r="4.5" stroke="#38bdf8" stroke-opacity="0.35" stroke-width="1.2" />
+    <circle cx="10.5" cy="31.5" r="1.8" fill="#818cf8" />
+    <path d="M24 16.5L28.5 24L24 31.5L19.5 24Z" fill="url(#fol-primary)" />
+    <circle cx="24" cy="24" r="2.2" fill="#ffffff" />
+  </g>
+
+  <!-- Typography Wordmark -->
+  <text x="64" y="35" font-family="'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="26" font-weight="800" fill="#f8fafc" letter-spacing="-0.03em">Fee<tspan fill="url(#fol-text-grad)">Orbit</tspan></text>
+
+  <!-- Enterprise OS Badge -->
+  <rect x="186" y="20" width="28" height="17" rx="4" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+  <text x="193" y="32" font-family="'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="800" fill="#94a3b8" letter-spacing="0.06em">OS</text>
+</svg>
